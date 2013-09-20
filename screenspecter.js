@@ -16,7 +16,7 @@ var _currentStep = 0;
 function isEnd() {
     _currentStep++;
     if (_currentStep >= _nbSteps) {
-        console.log('You are all done, get the fuck out.')
+        console.log('Your screenshots have been saved to' + _directory)
         phantom.exit();
     }
 }
